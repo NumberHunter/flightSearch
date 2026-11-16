@@ -51,7 +51,6 @@ class Trip:
         Defined as the return's departure date minus the outbound's arrival date, both
         in local time at the destination. A flight landing at 00:25 on the 15th and a
         return on the 20th is 5 nights, even though the outbound left on the 14th.
-        (Proposed definition in the project brief; pending confirmation by the owner.)
         """
         if self.inbound is None:
             return None
